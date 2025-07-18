@@ -1,0 +1,26 @@
+title: 딥러닝 엔지니어링 블로그
+description: Deep Learning Engineering Blog
+baseurl: ""
+url: "https://deeplearningengineering.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Site settings
+lang: ko
+author: 딥러닝 엔지니어
+
+# Navigation
+header_pages:
+  - about.md
+  - test.md
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor 
